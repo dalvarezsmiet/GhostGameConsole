@@ -37,7 +37,10 @@ namespace GhostGameWeb
             GhostPlayer winner = game.Play();
 
             Console.WriteLine("Final word:  " + game.WordInPlay() + ", " + winner.Name() + " wins!");
+        }
 
+        public static void Main(string [] args)
+        {
         }
     }
 }
